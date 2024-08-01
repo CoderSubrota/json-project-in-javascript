@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="https://www.bing.com/images/blob?bcid=r0hmFNbvCVQH6A" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+<div class="link">
+    <a href="addProduct.html"> Add product </a>
+</div>
+   <h2 style="color: cyan;"> Total available product <span id="ProductCount" style="color: white;"></span> </h2>
+    <div class="editForm" id="editForm">
+        <h2> Edit product </h2>
+        <div class="editProductDiv">
+       
+          <div class="productName">
+            <input
+              type="text"
+              name="productName"
+              id="productName"
+              placeholder="Enter your product name"
+            />
+          </div>
+          <div class="brandName">
+            <input
+              type="text"
+              name="brandName"
+              id="brandName"
+              placeholder="Enter your product brand name"
+            />
+          </div>
+          <div class="productPrice">
+            <input
+              type="text"
+              name="productPrice"
+              id="productPrice"
+              placeholder="Enter your product price"
+            />
+          </div>
+          <div class="productColor">
+            <input
+              type="text"
+              name="productColor"
+              id="productColor"
+              placeholder="Enter your product color"
+            />
+          </div>
+          <div class="image">
+            <input
+              type="url"
+              name="image"
+              id="productImage"
+              placeholder="Enter your product url"
+    
+            />
+          </div>
+          <div class="submitProduct">
+            <button class="editProduct">Edit product</button>
+          </div>
+        </div>
+    </div>
+
+    <div class="products-container">
+
+    </div>
+
+ 
+
+<script src="srcipt.js"></script>
+</body>
+</html>
